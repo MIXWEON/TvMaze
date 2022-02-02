@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/home">
+    <fragment
+        android:id="@+id/home"
+        android:name="com.jobsity.tvmaze.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_FavoriteFragment"
+            app:destination="@id/favoriteFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_PeopleFragment"
+            app:destination="@id/peopleFragment" />
+        <action
+            android:id="@+id/action_showDetail"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/favoriteFragment"
+        android:name="com.jobsity.tvmaze.favorite.FavoriteFragment"
+        android:label="Favorites"
+        tools:layout="@layout/fragment_favorite">
+        <argument
+            android:name="SelectedFavorite"
+            app:argType="com.jobsity.tvmaze.network.MazeSerie" />
+        <action
+            android:id="@+id/action_showDetail"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/peopleFragment"
+        android:name="com.jobsity.tvmaze.people.PeopleFragment"
+        android:label="People"
+        tools:layout="@layout/fragment_people">
+        <argument
+            android:name="SelectedPeople"
+            app:argType="com.jobsity.tvmaze.network.MazePeople" />
+        <action
+            android:id="@+id/action_showPerson"
+            app:destination="@id/personFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/personFragment"
+        android:name="com.jobsity.tvmaze.person.PersonFragment"
+        android:label="Person"
+        tools:layout="@layout/fragment_detail">
+        <argument
+            android:name="SelectedPerson"
+            app:argType="com.jobsity.tvmaze.network.MazePeople" />
+        <action
+            android:id="@+id/action_showShow"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.jobsity.tvmaze.detail.DetailFragment"
+        android:label="Details"
+        tools:layout="@layout/fragment_detail">
+        <argument
+            android:name="SelectedSerie"
+            app:argType="com.jobsity.tvmaze.network.MazeSerie" />
+        <action
+            android:id="@+id/action_showEpisode"
+            app:destination="@id/episodeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/episodeFragment"
+        android:name="com.jobsity.tvmaze.episode.EpisodeFragment"
+        android:label="Episode"
+        tools:layout="@layout/fragment_detail">
+        <argument
+            android:name="SelectedEpisode"
+            app:argType="com.jobsity.tvmaze.network.MazeEpisode" />
+    </fragment>
+</navigation>

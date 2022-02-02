@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ricky/Desktop/TVMaze/app/src/main/res/layout/activity_main.xml" value="0.20260416666666667" />
+        <entry key="..\:/Users/ricky/Desktop/TVMaze/app/src/main/res/layout/episode_title.xml" value="0.3442028985507246" />
+        <entry key="..\:/Users/ricky/Desktop/TVMaze/app/src/main/res/layout/fragment_detail.xml" value="0.33" />
+        <entry key="..\:/Users/ricky/Desktop/TVMaze/app/src/main/res/layout/fragment_episode.xml" value="0.35052083333333334" />
+        <entry key="..\:/Users/ricky/Desktop/TVMaze/app/src/main/res/layout/fragment_favorite.xml" value="0.3442028985507246" />
+        <entry key="..\:/Users/ricky/Desktop/TVMaze/app/src/main/res/layout/fragment_home.xml" value="0.20260416666666667" />
+        <entry key="..\:/Users/ricky/Desktop/TVMaze/app/src/main/res/layout/fragment_people.xml" value="0.3442028985507246" />
+        <entry key="..\:/Users/ricky/Desktop/TVMaze/app/src/main/res/layout/fragment_person.xml" value="0.3442028985507246" />
+        <entry key="..\:/Users/ricky/Desktop/TVMaze/app/src/main/res/layout/grid_view_episode_item.xml" value="0.1" />
+        <entry key="..\:/Users/ricky/Desktop/TVMaze/app/src/main/res/layout/grid_view_item.xml" value="0.1" />
+        <entry key="..\:/Users/ricky/Desktop/TVMaze/app/src/main/res/layout/grid_view_people_item.xml" value="0.3442028985507246" />
+        <entry key="..\:/Users/ricky/Desktop/TVMaze/app/src/main/res/menu/menu_list.xml" value="0.3625" />
+        <entry key="..\:/Users/rmarqueze.SATELCORP/AndroidStudioProjects/TVMaze/app/src/main/res/drawable/ic_broken_image.xml" value="0.13802083333333334" />
+        <entry key="..\:/Users/rmarqueze.SATELCORP/AndroidStudioProjects/TVMaze/app/src/main/res/drawable/ic_connection_error.xml" value="0.13802083333333334" />
+        <entry key="..\:/Users/rmarqueze.SATELCORP/AndroidStudioProjects/TVMaze/app/src/main/res/drawable/ic_detail_back.xml" value="0.13802083333333334" />
+        <entry key="..\:/Users/rmarqueze.SATELCORP/AndroidStudioProjects/TVMaze/app/src/main/res/drawable/ic_search.xml" value="0.13802083333333334" />
+        <entry key="..\:/Users/rmarqueze.SATELCORP/AndroidStudioProjects/TVMaze/app/src/main/res/drawable/loading_img.xml" value="0.13802083333333334" />
+        <entry key="..\:/Users/rmarqueze.SATELCORP/AndroidStudioProjects/TVMaze/app/src/main/res/layout/activity_main.xml" value="0.16" />
+        <entry key="..\:/Users/rmarqueze.SATELCORP/AndroidStudioProjects/TVMaze/app/src/main/res/layout/fragment_detail.xml" value="0.21658127619934792" />
+        <entry key="..\:/Users/rmarqueze.SATELCORP/AndroidStudioProjects/TVMaze/app/src/main/res/layout/fragment_episode.xml" value="0.2421875" />
+        <entry key="..\:/Users/rmarqueze.SATELCORP/AndroidStudioProjects/TVMaze/app/src/main/res/layout/fragment_home.xml" value="0.17753623188405798" />
+        <entry key="..\:/Users/rmarqueze.SATELCORP/AndroidStudioProjects/TVMaze/app/src/main/res/layout/fragment_people.xml" value="0.2421875" />
+        <entry key="..\:/Users/rmarqueze.SATELCORP/AndroidStudioProjects/TVMaze/app/src/main/res/layout/fragment_person.xml" value="0.4518950437317784" />
+        <entry key="..\:/Users/rmarqueze.SATELCORP/AndroidStudioProjects/TVMaze/app/src/main/res/layout/grid_view_episode_item.xml" value="0.2421875" />
+        <entry key="..\:/Users/rmarqueze.SATELCORP/AndroidStudioProjects/TVMaze/app/src/main/res/layout/grid_view_item.xml" value="0.264" />
+        <entry key="..\:/Users/rmarqueze.SATELCORP/AndroidStudioProjects/TVMaze/app/src/main/res/layout/grid_view_people_item.xml" value="0.121875" />
+        <entry key="..\:/Users/rmarqueze.SATELCORP/AndroidStudioProjects/TVMaze/app/src/main/res/menu/drawer_view.xml" value="0.121875" />
+        <entry key="..\:/Users/rmarqueze.SATELCORP/AndroidStudioProjects/TVMaze/app/src/main/res/menu/menu_list.xml" value="0.121875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

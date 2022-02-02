@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">TVMaze</string>
+    <string name="display_name">%s</string>
+    <string name="display_days">%s</string>
+    <string name="display_time">%s</string>
+    <string name="display_genre">%s</string>
+    <string name="display_summary">%s</string>
+    <string name="display_number">%d</string>
+    <string name="display_season">%d</string>
+    <string name="display_summarydetail"><p>This Emmy winning series is a comic look at the assorted humiliations and rare triumphs of a group of girls in their 20s.</p></string>
+    <string name="display_genredetail">Drama, Romance</string>
+    <string name="display_namedetail">Girls</string>
+    <string name="display_daysdetail">Sunday</string>
+    <string name="display_timedetail">22:00</string>
+    <string name="display_favorite">Favorites</string>
+    <string name="display_people">People</string>
+    <string name="search_title">Search</string>
+    <string name="name_title">Name:</string>
+    <string name="days_title">Days:</string>
+    <string name="time_title">Time:</string>
+    <string name="genres_title">Genres:</string>
+    <string name="summary_title">Summary:</string>
+    <string name="number_title">Number:</string>
+    <string name="season_title">Season:</string>
+    <string name="genre_title">Genre:</string>
+    <string name="genre_detail">Masculine</string>
+    <string name="show_image">Show image</string>
+    <string name="episode_image">Episode image</string>
+</resources>
